@@ -32,7 +32,7 @@
     <application
         android:icon="@android:drawable/sym_def_app_icon"
         android:label="@string/xiaomiparts"
-        android:theme="@style/Theme.SubSettingsBase"
+        android:theme="@style/Theme.Main"
         android:persistent="true">
 
         <activity
@@ -93,7 +93,7 @@
             android:name=".doze.DozeSettingsActivity"
             android:exported="true"
             android:label="@string/ambient_display_title"
-            android:theme="@style/Theme.SubSettingsBase">
+            android:theme="@style/Theme.Main">
             <intent-filter>
                 <action android:name="org.lineageos.settings.device.DOZE_SETTINGS" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -103,7 +103,7 @@
         <activity
             android:name=".kcal.KCalSettingsActivity"
             android:exported="true"
-            android:theme="@style/Theme.SubSettingsBase"
+            android:theme="@style/Theme.Main"
             android:label="@string/advanced_settings_kcal">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
